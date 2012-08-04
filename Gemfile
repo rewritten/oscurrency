@@ -8,7 +8,7 @@ gem 'rails', '3.1.3'
 gem 'pg'
 
 group :assets do
-  gem "sass-rails", '3.1.5'
+  gem "sass-rails"
   gem "uglifier"
 end
 
@@ -44,6 +44,10 @@ gem "redcarpet", "1.17.2"
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'rails_admin', "0.0.3"
 gem "delayed_job_active_record"
+
+gem "ckeditor"
+gem "carrierwave"
+gem "mini_magick"
 
 group :development, :test do
   gem "silent-postgres"
